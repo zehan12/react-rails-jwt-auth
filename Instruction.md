@@ -15,3 +15,12 @@ bundle install
 bin/rails db:create
 ```
 
+### add devise, jwt and cors
+```sh
+bundle add devise devise-jwt rack-cors
+```
+
+### install devise
+```sh
+rails g devise:install
+```
